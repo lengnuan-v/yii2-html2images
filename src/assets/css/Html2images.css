@@ -1,0 +1,20 @@
+.html2images {
+    position: fixed;
+    top: 4.8rem;
+    right: 1rem;
+    z-index: 1;
+}
+
+@media (max-width: 576px) {
+    .html2images {
+        display: none;
+    }
+}
+.html2images .download {
+    background-color: #4A89FF;
+    border: 2px solid #FFF;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    padding: 4px 10px
+}
