@@ -53,7 +53,6 @@ class Html2imagesWidget extends Widget
                 $('body').removeClass('$this->removeClass')
                 setTimeout(function () {
                     let offsetLeft = $('.$this->class').offset().left;
-                    console.log(offsetLeft)
                     const _articleHtml = document.querySelector('.$this->class');
                     let _w = _articleHtml.clientWidth + 20;
                     let _h = _articleHtml.clientHeight + 20;
